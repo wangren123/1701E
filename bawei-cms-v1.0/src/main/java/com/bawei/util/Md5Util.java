@@ -21,9 +21,8 @@ public class Md5Util {
 		return new Md5Hash(str, salt).toString();
 	}
 	
-	
 	public static void main(String[] args) {
 		String password="123456";
-		System.out.println("Md5¼ÓÃÜ½á¹û£º"+Md5Util.md5(password, Md5Util.SALT));
+		System.out.println("Md5åŠ å¯†ç»“æžœï¼š"+Md5Util.md5(password, Md5Util.SALT));
 	}
 }
